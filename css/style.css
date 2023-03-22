@@ -312,12 +312,10 @@ nav ul li a:hover {
 #gallery {
     display: flex;
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
     cursor: pointer;
 }
 
 #gallery img {
-    scroll-snap-align: center;
     max-width: 100%;
     height: auto;
 }
