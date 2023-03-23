@@ -75,11 +75,11 @@ nav ul li a:hover {
 }
 
 .img {
-    background-image: url("../img/imagem.jpg");
+    background-image: url("../img/perfil.JPG");
     background-position: center;
     background-size: cover;
-    border-radius: 50%;
-    width: 30%;
+    border-radius: 10%;
+    width: 40%;
 }
 
 .content h1 {
@@ -226,7 +226,7 @@ nav ul li a:hover {
     gap: 4rem;
 }
 
-.fourth-project {
+#last-project {
     margin-bottom: 4rem;
 }
 
@@ -311,13 +311,13 @@ nav ul li a:hover {
 
 #gallery {
     display: flex;
-    overflow-x: auto;
     cursor: pointer;
+    height: 100%;
 }
 
 #gallery img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 #gallery:hover img {
@@ -340,6 +340,32 @@ nav ul li a:hover {
 .code h2 {
     font-size: 1rem;
     padding-bottom: 0.4rem;
+}
+
+#third-project img {
+    height: 100%;
+}
+
+#third-project .pro-img {
+    width: 60%;
+}
+
+#third-project {
+    height: 28vw;
+}
+
+#fourth-project .pro-img:hover img {
+    transform: translateY(-25%);
+    transition: 10s;
+}
+
+#fourth-project .pro-img img {
+    transform: translateY(0%);
+    transition: 10s;
+}
+
+#fourth-project {
+    gap: 4rem;
 }
 
 /*
